@@ -81,35 +81,35 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(cups.get(0) == 107){
+                if(cups.get(1) == 107){
                     middle.setImageResource(R.drawable.kh1);
                     Toast.makeText(MainActivity.this, "Guessed!", Toast.LENGTH_SHORT).show();
                 }
-                else if(cups.get(0) == 207){
-                    middle.setImageResource(R.drawable.kh1);
-                }
-                else if(cups.get(0) == 407){
-                    middle.setImageResource(R.drawable.kh1);
-                }
-
-                if(cups.get(1) == 107){
-                    left.setImageResource(R.drawable.kh1);
-                }
                 else if(cups.get(1) == 207){
-                    left.setImageResource(R.drawable.kh1);
+                    middle.setImageResource(R.drawable.ks1);
                 }
                 else if(cups.get(1) == 407){
+                    middle.setImageResource(R.drawable.ks1);
+                }
+
+                if(cups.get(0) == 107){
                     left.setImageResource(R.drawable.kh1);
+                }
+                else if(cups.get(0) == 207){
+                    left.setImageResource(R.drawable.ks1);
+                }
+                else if(cups.get(0) == 407){
+                    left.setImageResource(R.drawable.ks1);
                 }
 
                 if(cups.get(2) == 107){
                     right.setImageResource(R.drawable.kh1);
                 }
                 else if(cups.get(2) == 207){
-                    right.setImageResource(R.drawable.kh1);
+                    right.setImageResource(R.drawable.ks1);
                 }
                 else if(cups.get(2) == 407){
-                    right.setImageResource(R.drawable.kh1);
+                    right.setImageResource(R.drawable.ks1);
                 }
 
 
@@ -120,15 +120,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(cups.get(0) == 107){
+                if(cups.get(2) == 107){
                     right.setImageResource(R.drawable.kh1);
                     Toast.makeText(MainActivity.this, "Guessed!", Toast.LENGTH_SHORT).show();
                 }
-                else if(cups.get(0) == 207){
-                    right.setImageResource(R.drawable.kh1);
+                else if(cups.get(2) == 207){
+                    right.setImageResource(R.drawable.ks1);
                 }
-                else if(cups.get(0) == 407){
-                    right.setImageResource(R.drawable.kh1);
+                else if(cups.get(2) == 407){
+                    right.setImageResource(R.drawable.ks1);
                 }
 
                 if(cups.get(1) == 107){
@@ -136,20 +136,20 @@ public class MainActivity extends AppCompatActivity {
 
                 }
                 else if(cups.get(1) == 207){
-                    middle.setImageResource(R.drawable.kh1);
+                    middle.setImageResource(R.drawable.ks1);
                 }
                 else if(cups.get(1) == 407){
-                    middle.setImageResource(R.drawable.kh1);
+                    middle.setImageResource(R.drawable.ks1);
                 }
 
-                if(cups.get(2) == 107){
+                if(cups.get(0) == 107){
                     left.setImageResource(R.drawable.kh1);
                 }
-                else if(cups.get(2) == 207){
-                    left.setImageResource(R.drawable.kh1);
+                else if(cups.get(0) == 207){
+                    left.setImageResource(R.drawable.ks1);
                 }
-                else if(cups.get(2) == 407){
-                    left.setImageResource(R.drawable.kh1);
+                else if(cups.get(0) == 407){
+                    left.setImageResource(R.drawable.ks1);
                 }
 
             }
