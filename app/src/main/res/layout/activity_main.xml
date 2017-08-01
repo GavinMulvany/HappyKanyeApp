@@ -22,23 +22,23 @@
 
         <ImageView
             android:id="@+id/left"
-            android:layout_width="60dp"
+            android:layout_width="100dp"
             android:src="@drawable/kanyecup"
-            android:layout_height="227dp"
+            android:layout_height="100dp"
             android:layout_weight="1.22" />
 
         <ImageView
             android:id="@+id/middle"
-            android:layout_width="129dp"
+            android:layout_width="100dp"
             android:src="@drawable/kanyecup"
-            android:layout_height="158dp" />
+            android:layout_height="100dp" />
 
 
         <ImageView
             android:id="@+id/right"
-            android:layout_width="119dp"
+            android:layout_width="100dp"
             android:src="@drawable/kanyecup"
-            android:layout_height="178dp" />
+            android:layout_height="100dp" />
 
 
 
