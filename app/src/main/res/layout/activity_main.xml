@@ -16,21 +16,21 @@
     <ImageView
         android:id="@+id/left"
         android:layout_width="60dp"
-        android:src="@drawable/kanyeCup"
+        android:src="@drawable/kanyecup"
         android:layout_height="227dp"
         android:layout_weight="1.22" />
 
     <ImageView
         android:id="@+id/middle"
         android:layout_width="129dp"
-        android:src="@drawable/kanyeCup"
+        android:src="@drawable/kanyecup"
         android:layout_height="158dp" />
 
 
     <ImageView
         android:id="@+id/right"
         android:layout_width="119dp"
-        android:src="@drawable/kanyeCup"
+        android:src="@drawable/kanyecup"
         android:layout_height="178dp" />
 
 </LinearLayout>
